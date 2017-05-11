@@ -1,0 +1,30 @@
+{
+  "name": "node-passport-learn",
+  "version": "1.0.0",
+  "description": "Simple user auth for Rest API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgleiser/node-passport-learn.git"
+  },
+  "author": "Jose Gleiser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgleiser/node-passport-learn/issues"
+  },
+  "homepage": "https://github.com/jgleiser/node-passport-learn#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.17.1",
+    "connect-flash": "0.1.1",
+    "express": "4.15.2",
+    "mongoose": "4.9.8",
+    "morgan": "1.8.1",
+    "passport": "0.3.2",
+    "passport-http": "0.3.0",
+    "passport-http-bearer": "1.0.1"
+  }
+}
